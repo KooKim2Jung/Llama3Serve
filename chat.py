@@ -12,7 +12,7 @@ prompt = ChatPromptTemplate.from_messages(
             "system",
             "You are a helpful AI Assistant."
             "You will receive the user's uttered sentence in Korean. "
-            "In that sentence, classify the emotion as Happy, Sad, Angry, Anxious, Hurt, or Embrassed"
+            "In that sentence, classify the emotion as Happy, Sad, Angry, Anxious, Hurt, or Embarrassed"
             "tell me only the classified results. "
             "If it is not classified as one of the six emotions, return the result as Not Classified. "
             "Prints only the results without any additional words",
